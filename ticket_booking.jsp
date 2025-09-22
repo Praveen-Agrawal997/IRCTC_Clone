@@ -61,16 +61,7 @@
         <div class="main-content">
             <div class="booking-card my-4 mb-0">
                 <h3 class="text-center mb-4">🎟️ Ticket Booking</h3>
-
-               
-                <!--<form action="train_List.jsp" method="post">-->
                          <div class="row g-3">
-<!--                        <div class="col-md-6">
-                            <a href="#" class="btn btn-primary w-100">PNR Status</a>
-                        </div>
-                        <div class="col-md-6">
-                            <a href="#" class="btn btn-primary w-100">Charts / Vacancy</a>
-                        </div>-->
 
                         <form action="train_List.jsp" method="post">
                                 <div class="mb-3">
