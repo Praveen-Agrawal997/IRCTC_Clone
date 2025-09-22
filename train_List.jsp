@@ -51,15 +51,6 @@
                   
                   <div class="container mt-4">
                       <div class="row">
-                          <%
-                          String From=request.getParameter("From");
-                          String To=request.getParameter("To");                  
-                          String date=request.getParameter("date");
-                          DbManager dm=new DbManager();
-                          ResultSet rs=dm.select("select * from train_details where StartingStation='"+From+"' and EndingStation='"+To+"'");
-                          while(rs.next())
-                          {
-                          %>
                           <div class="col-md-10 offset-md-1 mb-4">
                               <a href="user/booknow.jsp?id=<%=rs.getString("id")%>" style="text-decoration: none;">
                                   <div class="card train-card p-3">
@@ -77,7 +68,6 @@
                                   </div>
                               </a>
                           </div>
-                          <% } %>
                       </div>
                   </div>
               </div>
